@@ -7,12 +7,11 @@ export default function Navbar(props) {
   const { active } = props;
   return (
     <nav className={`navbar ${active ? 'active' : ''}`}>
-      <a href="#home">home</a>
-      <a href="#features">features</a>
-      <a href="#products">products</a>
-      <a href="#categories">categories</a>
-      <a href="#reviews">review</a>
-      <a href="#blogs">blogs</a>
+      <a href="#home" style={{color:'white'}}>Home</a>
+      <a href="#features" style={{color:'white'}}>Services</a>
+      <a href="#products" style={{color:'white'}}>About Us</a>
+      <a href="#categories" style={{color:'white'}}>Categories</a>
+      <a href="#reviews" style={{color:'white'}}>Contacts</a>
     </nav>
   );
 }

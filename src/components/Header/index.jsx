@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './Header.css';
-import Navbar from './Navbar/index';
+// import Navbar from './Navbar/index';
 import PersonIcon from '@mui/icons-material/Person';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';

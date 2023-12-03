@@ -1,0 +1,23 @@
+.header{
+    color: #ffa500;
+    margin-left: 10px;
+}
+body{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.orange{
+    color: #ffa500;
+}
+.noborder{
+    box-shadow: none;
+}
+.orangebg{
+    background-color: #ffa500;
+    color: white;
+    /* color: #ffa500; */
+}
+.greenbg{
+    background-color: greenyellow;
+    color: white;
+}

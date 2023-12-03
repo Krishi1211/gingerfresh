@@ -20,7 +20,7 @@
   color: var(--orange);
   margin-right: 0.5rem;
 }
-.header .icons button {
+.header .icons #user-btn {
   height: 4.5rem;
   width: 4.5rem;
   line-height: 4.5rem;
@@ -43,4 +43,15 @@
 }
 .header .icons #menu-btn {
   display: none;
+}
+
+#user-btn1{
+  height: 3rem;
+  width: 9.5rem;
+  margin-left: 0.5rem;
+  cursor: pointer;
+  text-align: center;
+  font-size: 2rem;
+  background: orange;
+  border-radius: 8.5rem;
 }
